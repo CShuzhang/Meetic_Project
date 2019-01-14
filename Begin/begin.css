@@ -1,0 +1,60 @@
+body{
+	width: 100%;
+	height: 823px;
+	background-image: url('back.jpg');
+	background-position: 70%;
+	background-repeat: no-repeat;
+	z-index: -1000;
+	font-family: Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+	margin: 0;
+}
+
+.begin{
+	display: flex;
+	color: white;
+	font-size: 30px;
+}
+
+.begin .take_begin{
+	padding-left: 3em;
+	padding-top: 3em;
+}
+
+.begin i{
+	color: #ff9a27;
+}
+
+.begin h3{
+	font-family: 'Open Sans','Open Sans Condensed';
+	font-size: 27px;
+	font-weight: 300;
+}
+
+.begin h4{
+	font-family: 'Open Sans','Open Sans Condensed';
+	font-weight: 300;
+	font-size: 12px;
+	margin-top: -14px;
+}
+
+.begin p{
+	font-size: 15px;
+	margin-top: -6px;
+}
+
+.begin a{
+	text-decoration: none;	
+	border: 1, solid, #ff9a27;
+	color: white;
+	background-color: #ff9a27;
+	padding: 5px;
+}
+
+.begin .button{
+	padding-top: 2em;
+}
+
+.begin .button:hover{
+	opacity: 0.5;
+	transition: 0.5s;
+}

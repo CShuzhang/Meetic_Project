@@ -1,0 +1,147 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #eef0f5;
+	margin: 0;
+	font-family: Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+	color: #3c4550;
+	padding-bottom: 1em;
+}
+
+i{
+	font-size: 28px;
+	color: #6ab3fb;
+}
+
+header{
+	display: flex;
+}
+
+.take_top{
+	background-color: white;
+	width: 100%;
+	z-index: 1000;
+	position: fixed;
+}
+
+.top{
+	display: flex;
+	-webkit-box-shadow: 0 3px 10px 0 rgba(0,0,0,.2);
+}
+
+.top .logo:hover{
+	opacity: 0.5;
+	transition: 0.7s;
+}
+
+.top a{
+	text-decoration: none;
+	color: #3c4550;
+}
+
+.top a:hover{
+	color: #6ab3fb;
+	border-bottom: solid;
+}
+
+.top .menu{
+	display: flex;
+}
+
+.top .menu h3{
+	padding-left: 30px;
+	padding-top: 0.5em;
+}
+
+.take_image{
+	display: flex;
+	flex-direction: column;
+	margin-top: 9em;
+}
+
+.take_image .image{
+	display: flex;
+	justify-content: center;
+}
+
+.myImage{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: white;
+	padding: 1em;
+}
+
+.myImage form{
+	padding-top: 2em;
+}
+
+.myImage img{
+	width: 288px;
+	height: 308px;
+}
+
+.myImage h4{
+	font-size: 20px;
+	border-bottom: solid;
+	border-color: #6ab3fb;
+}
+
+.my_profil{
+	display: flex;
+	justify-content: center;
+}
+
+.info{
+	padding-right: 3em;
+}
+
+.take_profil{
+	display: flex;
+}
+
+.write{
+	background-color: white;
+	padding: 2em;
+	font-size: 20px;
+	margin-top: 5em;
+}
+
+.write h4{
+	width: 40%;
+	border-bottom: solid;
+	border-color: #6ab3fb; 
+}
+
+.modif_info{
+	margin-left: 1em;
+	font-size: 15px;
+	margin-left: 2em;
+}
+
+.modif_info i:hover{
+	opacity: 0.5;
+}
+
+.delete{
+	display: flex;
+	justify-content: center;
+	padding-top: 2em;
+}
+
+.delete label{
+	color: #6ab3fb;
+	font-size: 1em;
+}
+
+.delete input{
+	color: #6ab3fb;
+}
+
+.pass i{
+	font-size: 10px;
+	color: #3c4550;
+	margin-left: 5px;
+}

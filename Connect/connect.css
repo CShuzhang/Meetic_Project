@@ -1,0 +1,55 @@
+body{
+	width: 100%;
+	height: 823px;
+	background-image: url('back.jpg');
+	background-position: 70%;
+	background-repeat: no-repeat;
+	z-index: -1000;
+	font-family: Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+	margin: 0;
+	color: #feb535;
+	font-weight: 100;
+}
+
+.connect{
+	display: flex;
+}
+
+.connect .redirection{
+	padding-top: 10px;
+}
+
+.connect .redirection a{
+	text-decoration: none;
+	color: #d47940;
+}
+
+
+.connect .redirection a:hover{
+	color: white;
+}
+
+.connect .take_connect{
+	margin-left: 10em;
+	margin-top: 9em;
+}
+
+.connect .take_connect h5{
+	font-size: 30px;
+	border-bottom: solid;
+}
+
+.connect .take_connect input{
+	padding: 7px;
+	border: 2px solid #d47940;
+	border-radius: 25px;
+}
+
+.connect .take_connect .valid_connect{
+	padding-top: 20px;
+}
+
+.error{
+	margin-left: 10em;
+	padding-top: 2em;
+}
